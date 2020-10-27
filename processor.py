@@ -5,7 +5,7 @@ class Matrix:
     count = 0
 
     def __init__(self):
-        self.arr = [] # Cria a lista (da futura matriz)
+        self.arr = [] # Cria a lista (para futura matriz)
         self.line, self.colum = [int(x) for x in input().split()]  # Atribui o numero de linhas e colunas
 
     def make_mtx(self):
